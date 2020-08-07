@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peter's website</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,600&display=swap" rel="stylesheet">
+	<style type="text/css">
+	.cneter {
+}
+    </style>
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	  
+<!-- Navbar code -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder">
+  <a class="navbar-brand" href="https://www.hvhs.school.nz/">
+	  <img src="images/hvhs logo.jfif" width="80" height="50" class="d-inline-block align-centre" alt="HVHS logo" loading="lazy"/>
+	  HVHS
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav nav-tabs nav-fill">
+      <li class="nav-item active px-md-5">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item px-md-5">
+        <a class="nav-link" href="#">International life</a>
+      </li>
+      <li class="nav-item px-md-5">
+        <a class="nav-link" href="#">Students stories</a>
+      </li>
+      <li class="nav-item px-md-5">
+        <a class="nav-link " href="#">ICAP project</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navbar code -->
+	  
+<!--carousel code -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="2000">
+      <img src="images/card-img.png" class="d-block w-100 img-fluid" style="width: 1920px; height: 647px;" alt="image1">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="images/card-img.png" class="d-block w-100 img-fluid" style="width: 1920px; height: 647px;" alt="image2">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="images/card-img.png" class="d-block w-100 img-fluid" style="width: 1920px; height: 647px;" alt="image3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</div>
+<!--carousel code -->
+
+<!-- ... code -->
+<div class="jumbotron jumbotron-fluid mt-2">
+  <div class="container">
+    <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we are welcoming,</h1>
+    <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we are kind,</h1>
+    <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we preserve,</h1>
+    <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we achieve.</h1>
+  </div>
+</div>
+<!-- ... code -->
+
+	  
+	  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
