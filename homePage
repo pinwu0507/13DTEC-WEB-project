@@ -8,6 +8,7 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Literata&display=swap" rel="stylesheet">
 	<style type="text/css">
 	.cneter {
 }
@@ -15,13 +16,17 @@
 }
     .mx-n7 {
 }
+    .h-200 {
+}
+    .vh-200 {
+}
     </style>
   </head>
   <body>
   	<!-- body code goes here -->
 	  
 <!-- Navbar code -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder">
+<nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder shadow-lg">
   <a class="navbar-brand" href="https://www.hvhs.school.nz/">
 	  <img src="images/hvhs logo.jfif" width="80" height="50" class="d-inline-block align-centre" alt="HVHS logo" loading="lazy"/>
 	  HVHS
@@ -32,7 +37,7 @@
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
     <ul class="navbar-nav nav-tabs nav-fill">
       <li class="nav-item active px-md-5">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="homePage.html">Home</a>
       </li>
       <li class="nav-item px-md-5">
         <a class="nav-link" href="#">International life</a>
@@ -71,24 +76,52 @@
 <!--carousel code -->
 
 <!-- ... code -->
-	  <div class="container mt-2">
-		  <div class="row justify-content-center mx-n7">
-			  <div class="col-7 col-lg-6 col-xl-6 mx-1 mb-1">
-		          <iframe class="h-100 w-100" src="https://www.youtube.com/embed/6s8HpG6JrPI" allowfullscreen></iframe>
-			  </div>
+	  <div class="bg-light">
+	    <div class="container pt-3">
+		  <div class="row row-cols-2 pt-4 justify-content-center">
+			  <div class="col-7 col-lg-8 col-xl-8">
+				  <h1>Learning in HVHS</h1>
+				  <h5 class="py-4">We welcome international students to our school.</h5>
+				  <p class="font-weight-bold">Our school, founded in 1926, has a fine academic record and many famous and notable past students. Perhaps the most prestigious award has been the Nobel Prize won by former student, Alan McDiarmid. Our alumni include top university professors, successful business people, Olympic athletes and many others with success stories.and a Nobel Prize Winner.  We also achieve excellent results in musical, cultural and sporting activities.  We look forward to sharing our safe, quality environment with you.</p>
+		      </div>
 			  
-			  <div class="col-7 col-lg-4 col-xl-4 mx-1">
-				  <div class="jumbotron jumbotron-fluid h-100 w-100 text-center">
-                      <div class="container">
-                          <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we are welcoming,</h1>
-                          <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we are kind,</h1>
-                          <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we preserve,</h1>
-                          <h1 class="text-left" style="font-family: 'Vollkorn', serif;">we achieve.</h1>
-                      </div>
-                  </div>
-			  </div>
-		  </div>
-	  </div>
+			  <div class="col-7 col-lg-4 col-xl-4">
+		          <svg width="20em" height="20em" viewBox="0 0 16 16" class="bi bi-book-half justify-content-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z"/>
+					  
+                    <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869z"/>
+                  </svg>
+	          </div>
+	      </div>
+	    </div>
+     </div>
+	  
+	 <div class="bg-white">
+	    <div class="container pt-3">
+		  <div class="row row-cols-2 pt-4 justify-content-center">
+			 <div class="col-7 col-lg-4 col-xl-4">
+		          <svg width="20em" height="20em" viewBox="0 0 16 16" class="bi bi-house-fill justify-content-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>
+	          </div>
+			
+			  <div class="col-7 col-lg-8 col-xl-8">
+				  <h1>OUR VALUE</h1>
+				  <h5 class="py-4">We welcome international students to our school.</h5>
+				  <p class="font-weight-bold">
+					  <strong>We are welcoming. </strong>We celebrate culture, difference and each individual.<br>
+                      <strong>We are kind. </strong>We are respectful, restorative and we look after each other.<br>
+                      <strong>We persevere. </strong>We learn from our experiences and we don’t give up.<br>
+                      <strong>We achieve. </strong>We work hard for academic, cultural, social and sporting success<br>
+				  </p>
+		      </div>
+	       </div>
+	    </div>
+     </div>
+	  
+	  <div class="card-footer text-white bg-dark mb-0 mt-5">
+      </div>
 
 	  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
